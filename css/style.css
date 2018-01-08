@@ -1,18 +1,17 @@
 
 /* Section Headers */
 
-.row {
-	padding:10px;
-}
+
 
 /* Navigation bar */
 
 .navbar {
 	background-color: #72c4ff;
-	color: black;
+	color: #110a49;
 	padding-top:10px;
 	padding-left:10px;
 	font-family: "Palatino";
+	border-radius: 0px;
 }
 
 ul {
@@ -70,13 +69,23 @@ li a:hover {
 	font-size: 80px;
 }
 
+/* Photos Section */
+
+.photo:hover {
+	opacity: 0.85;
+}
+
+.col-xs-3 {
+	padding:14px;
+}
+
 /* Social Media Link Formatting */
 
 .sm-link {
 	background-color:#c896ff;
 }
 
-.sm-link:hover {
+.sm-text:hover {
 	background-color:#8b2af7;
 	color: #110a49;
 
