@@ -1,73 +1,82 @@
-
-/* Section Headers */
-
-
-
 /* Navigation bar */
 
-.navbar {
-	background-color: #72c4ff;
-	color: #110a49;
-	padding-top:10px;
+.nav {
+	background-color: #444444;
+	color: white;
+	/*padding-top:10px;*/
 	padding-left:10px;
-	font-family: "Palatino";
-	border-radius: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;\;
+	width: 100%;
 }
 
+
+
 ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
+    vertical-align: center;
 }
+
+
 
 li {
     float: left;
+    vertical-align: center;
 }
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 15px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 li a:hover {
-    background-color: #149cff;
+    background-color: #666666;
 }
+
+p {
+	font-family: "Montserrat", sans-serif;
+}
+
 
 /* Header Image and Text */
 
 .header {
-	background-color: #2b75ff;
-	color: #110a49;
+	background-color: #1e1e1e;
+	color: white;
 	padding: 10px;
-	/*width: 100%;*/
 	vertical-align: center;
 	margin: 15px ;
-	font-family: "Palatino";
+	font-family: "Montserrat";
+	font-weight:400;
 
 }
 
-.anna-header {
-	margin-top: -20px;
-	background-image: url("../images/barc_pano.jpg");
-	background-repeat: no-repeat;
+.profile_pic {
 	width: 100%;
-	height: 200px;
-	background-size: cover;
-	opacity: 0.7;
+	display: inline-block;
+	font-family: "Montserrat";
 }
 
-.anna {
-	color: white;
-	padding: 55px;
-	text-align: center;
-	font-family: "Palatino";
-	background-opacity: .50;
-	font-size: 80px;
+#profile_pic {
+	padding: 10px;
+	display: inline-block;
 }
+
+.bio {
+	width: 50%;
+	display: inline-block;
+}
+
 
 /* Photos Section */
 
@@ -82,22 +91,35 @@ li a:hover {
 /* Social Media Link Formatting */
 
 .sm-link {
-	background-color:#c896ff;
+	background-color:#666666;
 }
 
 .sm-text:hover {
-	background-color:#8b2af7;
-	color: #110a49;
+	background-color:#666666;
+	color: black;
 
 }
 
 .sm-text {
-	color: #110a49;
+	color: black;
 	display: block;
 	padding: 10px 10px 10px 30px;
 	font-size: 15px;
-	font-family: "Palatino";
+	font-family: "Montserrat";
 	margin: 15px;
-	background-color: #c896ff;
+	background-color: #cecece;
 	border-radius: 3px;
+}
+
+.half-sm-text {
+	color: black;
+	width: 45%;
+	display: inline-block;
+	padding: 10px 10px 10px 30px;
+	font-size: 15px;
+	font-family: "Montserrat";
+	margin: 15px;
+	background-color: #cecece;
+	border-radius: 3px;
+
 }

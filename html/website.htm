@@ -4,76 +4,57 @@
 
 <head>
 	<title> Website </title>
-	<link rel = "stylesheet" type = "text/css" href = "../css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "../css/style.css">
 
 </head>
 
 <body>
-	<nav class="navbar">
-		<ul>
-			<li><a href="#Photos"> Photos </a> </li>
-			<li><a href="#Social Media"> Social Media </a> </li>
-			<li> <a href="http://www.mit.edu"> MIT Homepage </a> </li>
-		</ul>
-	</nav>
 
-	<div class=" anna-header">
-		<h1 class="anna"> Anna Bair </h1>
+	<div class="nav">
+		<div class="nav_list">
+			<ul>
+				<li> <a href="website.htm"> Home </a> </li>
+				<li> <a href="photos.html"> Photos </a> </li>
+				<!-- <li> <a href="website.htm#Social Media"> Links </a> </li> -->
+				<!-- <li> <a href="http://www.mit.edu"> MIT Homepage </a> </li> -->
+				<li> <a href="interests.html"> Interests </a></li>
+			</ul>
+		</div>
 	</div>
 
-	<div class="container-fluid">
-		<h2 id="Photos" class="header">Photos </h2>
-		<!-- <div class="row"> -->
-			<div class="col-md-2 col-xs-3 photo">
-				<img src="../images/website_image.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/barc_ceil.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
 
-				<img src="../images/dc.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/gaudi.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/nyc.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/moher.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>	
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/trinity.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/moher.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/aruba.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/ireland_castle.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-			<div class="col-md-2 col-xs-3 photo" >
-				<img src="../images/high_line.jpg" style="width:100%" class="img-rounded img-responsive">
-			</div>
-
-		<!-- </div> -->
+	<div class="profile_pic">
+		<div id="profile_pic"> <img src="../images/website_image.jpg" style="width:300px"> </div>
+		<div class="bio"> 
+			<h1  class="name"> Annamarie E. Bair </h1>
+			<h3 > Master's student at MIT</h3>
+		</div>
 	</div>
 
+
 	<div class="container-fluid">
-		<h2 id="Social Media" class="header">Social Media </h2>
+		<h2 id="Links" class="header"> Links</h2>
 			<a href="https://github.com/annaebair" class="sm-text"> Github </a>
-			<a href="https://www.facebook.com/anna.bair.3" class="sm-text"> Facebook </a>
-			<a href="https://www.instagram.com/annaebair/" class="sm-text"> Instagram </a> <br>
+			<a href="https://www.linkedin.com/in/annamarie-bair/" class="sm-text"> LinkedIn </a> 
+			<a href="https://www.instagram.com/annaebair/" class="sm-text"> Instagram </a>
+			<br>
 	</div>
+
+
+	<div class="container-fluid">
+		<h2 class="header"> News </h2>
+			<a href="http://news.mit.edu/2018/student-profile-annamarie-bair-0606" class="sm-text"> MIT News </a> 
+			<a href="http://journals.sagepub.com/doi/10.1177/0278364916688255" class="sm-text"> Publication in IJRR</a>
+			<br>
+	</div>
+
 
 </body>
 </html>
