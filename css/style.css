@@ -12,7 +12,6 @@
 }
 
 
-
 .nav_ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -32,7 +31,6 @@
 	font-size: 15px;
 	font-weight: 400;
 }
-
 
 
 .nav_li {
@@ -64,7 +62,6 @@ p {
 	background-color: #1e1e1e;
 	color: white;
 	padding: 10px;
-	vertical-align: center;
 	margin: 15px ;
 	font-family: "Montserrat";
 	font-weight:400;
@@ -85,6 +82,7 @@ p {
 .bio {
 	width: 50%;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 
